@@ -1,0 +1,18 @@
+Flex Box :
+1) Flex Container
+    Properties :
+        Display : Flex,inline-flex {Items Displayed left to Right}
+        Flex-direction : row{default},column,row-reverse,column-reverse
+        Flex-Wrap : wrap,nowrap,wrap-reverse
+        flex-flow : Flex-direction+Flex-Wrap
+        justify-content : alignment of items along the main axis ,{flex=start {Default},flex-end,center,space-between,space-around,space-evenly}
+        align-items : alignment of items along the cross axis {stretch{default},flex-start,flex-end,center,baseline{Text inside the items to be aligned up}}
+        align-content : align along the cross axis ,{stretch{default},flex-start,flex-end,center,space-between}
+                        works good when responsiveness
+2) Flex item
+    order : Controls the order the items apperas in Container
+    flex-grow: takes the remaining space in the container.
+    flex-shrink : same as flex grow default value is 1
+    flex-basis : Inital size, flex grow and flex shrink applies on top of flex basis
+    flex:flex-grow+flex-shrink+flex-basis
+    align-self : align of individual flex items from cross strt to cross end
